@@ -39,3 +39,21 @@ input:focus, button:focus {
 h1, input, button {
   color: #ffffff;
 }
+.gallery-image {
+  width: 310px;
+  height: 310px;
+  margin: 5px;
+  border: 6px solid #48494b;
+  border-radius: 3px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+main {
+  max-width: 960px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap
+}
